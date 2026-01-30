@@ -28,7 +28,7 @@ class ViewController: UIViewController {
             self.navigationController?.pushViewController(vc, animated: true)
         }else{
             
-                showAlert(self, message: "Text should be less than 10 characters")
+                showAlert(self, message: "Text should be only characters and less than 10 characters")
                
             
         }
