@@ -24,18 +24,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		841208972F2D1E2200D2A44E /* TextSendingNextScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextSendingNextScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		841208AD2F2D1E2400D2A44E /* TextSendingNextScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextSendingNextScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		841208B72F2D1E2400D2A44E /* TextSendingNextScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextSendingNextScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841208972F2D1E2200D2A44E /* BankAccount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankAccount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841208AD2F2D1E2400D2A44E /* BankAccountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankAccountTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841208B72F2D1E2400D2A44E /* BankAccountUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankAccountUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		841208BF2F2D1E2400D2A44E /* Exceptions for "TextSendingNextScreen" folder in "TextSendingNextScreen" target */ = {
+		841208BF2F2D1E2400D2A44E /* Exceptions for "TextSendingNextScreen" folder in "BankAccount" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 841208962F2D1E2200D2A44E /* TextSendingNextScreen */;
+			target = 841208962F2D1E2200D2A44E /* BankAccount */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -43,7 +43,7 @@
 		841208992F2D1E2200D2A44E /* TextSendingNextScreen */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				841208BF2F2D1E2400D2A44E /* Exceptions for "TextSendingNextScreen" folder in "TextSendingNextScreen" target */,
+				841208BF2F2D1E2400D2A44E /* Exceptions for "TextSendingNextScreen" folder in "BankAccount" target */,
 			);
 			path = TextSendingNextScreen;
 			sourceTree = "<group>";
@@ -98,9 +98,9 @@
 		841208982F2D1E2200D2A44E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				841208972F2D1E2200D2A44E /* TextSendingNextScreen.app */,
-				841208AD2F2D1E2400D2A44E /* TextSendingNextScreenTests.xctest */,
-				841208B72F2D1E2400D2A44E /* TextSendingNextScreenUITests.xctest */,
+				841208972F2D1E2200D2A44E /* BankAccount.app */,
+				841208AD2F2D1E2400D2A44E /* BankAccountTests.xctest */,
+				841208B72F2D1E2400D2A44E /* BankAccountUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		841208962F2D1E2200D2A44E /* TextSendingNextScreen */ = {
+		841208962F2D1E2200D2A44E /* BankAccount */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 841208C02F2D1E2400D2A44E /* Build configuration list for PBXNativeTarget "TextSendingNextScreen" */;
+			buildConfigurationList = 841208C02F2D1E2400D2A44E /* Build configuration list for PBXNativeTarget "BankAccount" */;
 			buildPhases = (
 				841208932F2D1E2200D2A44E /* Sources */,
 				841208942F2D1E2200D2A44E /* Frameworks */,
@@ -123,16 +123,16 @@
 			fileSystemSynchronizedGroups = (
 				841208992F2D1E2200D2A44E /* TextSendingNextScreen */,
 			);
-			name = TextSendingNextScreen;
+			name = BankAccount;
 			packageProductDependencies = (
 			);
 			productName = TextSendingNextScreen;
-			productReference = 841208972F2D1E2200D2A44E /* TextSendingNextScreen.app */;
+			productReference = 841208972F2D1E2200D2A44E /* BankAccount.app */;
 			productType = "com.apple.product-type.application";
 		};
-		841208AC2F2D1E2400D2A44E /* TextSendingNextScreenTests */ = {
+		841208AC2F2D1E2400D2A44E /* BankAccountTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 841208C52F2D1E2400D2A44E /* Build configuration list for PBXNativeTarget "TextSendingNextScreenTests" */;
+			buildConfigurationList = 841208C52F2D1E2400D2A44E /* Build configuration list for PBXNativeTarget "BankAccountTests" */;
 			buildPhases = (
 				841208A92F2D1E2400D2A44E /* Sources */,
 				841208AA2F2D1E2400D2A44E /* Frameworks */,
@@ -146,16 +146,16 @@
 			fileSystemSynchronizedGroups = (
 				841208B02F2D1E2400D2A44E /* TextSendingNextScreenTests */,
 			);
-			name = TextSendingNextScreenTests;
+			name = BankAccountTests;
 			packageProductDependencies = (
 			);
 			productName = TextSendingNextScreenTests;
-			productReference = 841208AD2F2D1E2400D2A44E /* TextSendingNextScreenTests.xctest */;
+			productReference = 841208AD2F2D1E2400D2A44E /* BankAccountTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		841208B62F2D1E2400D2A44E /* TextSendingNextScreenUITests */ = {
+		841208B62F2D1E2400D2A44E /* BankAccountUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 841208C82F2D1E2400D2A44E /* Build configuration list for PBXNativeTarget "TextSendingNextScreenUITests" */;
+			buildConfigurationList = 841208C82F2D1E2400D2A44E /* Build configuration list for PBXNativeTarget "BankAccountUITests" */;
 			buildPhases = (
 				841208B32F2D1E2400D2A44E /* Sources */,
 				841208B42F2D1E2400D2A44E /* Frameworks */,
@@ -169,11 +169,11 @@
 			fileSystemSynchronizedGroups = (
 				841208BA2F2D1E2400D2A44E /* TextSendingNextScreenUITests */,
 			);
-			name = TextSendingNextScreenUITests;
+			name = BankAccountUITests;
 			packageProductDependencies = (
 			);
 			productName = TextSendingNextScreenUITests;
-			productReference = 841208B72F2D1E2400D2A44E /* TextSendingNextScreenUITests.xctest */;
+			productReference = 841208B72F2D1E2400D2A44E /* BankAccountUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 841208922F2D1E2200D2A44E /* Build configuration list for PBXProject "TextSendingNextScreen" */;
+			buildConfigurationList = 841208922F2D1E2200D2A44E /* Build configuration list for PBXProject "BankAccount" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -213,9 +213,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				841208962F2D1E2200D2A44E /* TextSendingNextScreen */,
-				841208AC2F2D1E2400D2A44E /* TextSendingNextScreenTests */,
-				841208B62F2D1E2400D2A44E /* TextSendingNextScreenUITests */,
+				841208962F2D1E2200D2A44E /* BankAccount */,
+				841208AC2F2D1E2400D2A44E /* BankAccountTests */,
+				841208B62F2D1E2400D2A44E /* BankAccountUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,12 +271,12 @@
 /* Begin PBXTargetDependency section */
 		841208AF2F2D1E2400D2A44E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 841208962F2D1E2200D2A44E /* TextSendingNextScreen */;
+			target = 841208962F2D1E2200D2A44E /* BankAccount */;
 			targetProxy = 841208AE2F2D1E2400D2A44E /* PBXContainerItemProxy */;
 		};
 		841208B92F2D1E2400D2A44E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 841208962F2D1E2200D2A44E /* TextSendingNextScreen */;
+			target = 841208962F2D1E2200D2A44E /* BankAccount */;
 			targetProxy = 841208B82F2D1E2400D2A44E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -293,7 +293,7 @@
 				INFOPLIST_FILE = TextSendingNextScreen/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +324,7 @@
 				INFOPLIST_FILE = TextSendingNextScreen/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,7 +480,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextSendingNextScreen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TextSendingNextScreen";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BankAccount.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BankAccount";
 			};
 			name = Debug;
 		};
@@ -501,7 +501,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextSendingNextScreen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TextSendingNextScreen";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BankAccount.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BankAccount";
 			};
 			name = Release;
 		};
@@ -546,7 +546,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		841208922F2D1E2200D2A44E /* Build configuration list for PBXProject "TextSendingNextScreen" */ = {
+		841208922F2D1E2200D2A44E /* Build configuration list for PBXProject "BankAccount" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				841208C32F2D1E2400D2A44E /* Debug */,
@@ -555,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		841208C02F2D1E2400D2A44E /* Build configuration list for PBXNativeTarget "TextSendingNextScreen" */ = {
+		841208C02F2D1E2400D2A44E /* Build configuration list for PBXNativeTarget "BankAccount" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				841208C12F2D1E2400D2A44E /* Debug */,
@@ -564,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		841208C52F2D1E2400D2A44E /* Build configuration list for PBXNativeTarget "TextSendingNextScreenTests" */ = {
+		841208C52F2D1E2400D2A44E /* Build configuration list for PBXNativeTarget "BankAccountTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				841208C62F2D1E2400D2A44E /* Debug */,
@@ -573,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		841208C82F2D1E2400D2A44E /* Build configuration list for PBXNativeTarget "TextSendingNextScreenUITests" */ = {
+		841208C82F2D1E2400D2A44E /* Build configuration list for PBXNativeTarget "BankAccountUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				841208C92F2D1E2400D2A44E /* Debug */,
